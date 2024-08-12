@@ -23,7 +23,7 @@ int main()
 
 while(st<=ed)
 {
-    int mid = (st+ed)/2;
+    int mid = st+(ed-st)/2;
 
     if(arr[mid]==x)
     {
